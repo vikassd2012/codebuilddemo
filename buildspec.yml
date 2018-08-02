@@ -5,6 +5,7 @@ phases:
     commands:
       - dotnet restore
       - dotnet build
+	  - dotnet test CodeBuildDemo.csproj
 artifacts:
   files:
     - bin/Debug/netcoreapp2.1/*
